@@ -14,9 +14,9 @@
 #include <commctrl.h>
 #include <stdint.h>
 
-#include "..\resource.h"
-#include "..\TitanEngine\TitanEngine.h"
-#include "..\BeaEngine/BeaEngine.h"
+#include "../resource.h"
+#include "../TitanEngine/TitanEngine.h"
+#include "../BeaEngine/BeaEngine.h"
 
 #ifndef __GNUC__
 #define and &&
@@ -24,7 +24,7 @@
 #endif //__GNUC__
 
 
-#include "keygen\keygen_main.h"
+#include "keygen/keygen_main.h"
 
 /**********************************************************************
  *                      Standard Callbacks
