@@ -18,6 +18,7 @@
 #include "functions/about.h"
 #include "functions/CertTool_dialog.h"
 #include "functions/encdec.h"
+#include "functions/stolenkey.h"
 #include "functions/InlineHelper_dialog.h"
 #include "functions/InlineHelper_plugins.h"
 #include "functions/keygenerate.h"

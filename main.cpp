@@ -23,6 +23,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
         AddTabbedDialog(hInst, hwndDlg, "KeyGen", DLG_KEYCREATE, KG_DlgKeyGenerate, 0, 1);
         AddTabbedDialog(hInst, hwndDlg, "Analysis", DLG_ANALYSIS, DlgAnalysis, 0, 1);
         AddTabbedDialog(hInst, hwndDlg, "EncDec", DLG_ENCDEC, DlgEncDec, 0, 1);
+        AddTabbedDialog(hInst, hwndDlg, "StolenKey", DLG_STOLENKEY, DlgStolenKey, 1, 1);
         AddTabbedDialog(hInst, hwndDlg, "Version", DLG_VERSION, VF_DlgMain, 1, 1);
         AddTabbedDialog(hInst, hwndDlg, "Certs", DLG_CERTTOOL, CT_DlgMain, 1, 1);
         AddTabbedDialog(hInst, hwndDlg, "Inline", DLG_INLINEHELPER, IH_DlgMain, 1, 1);

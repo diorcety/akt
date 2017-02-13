@@ -16,6 +16,7 @@
 #define DLG_HELP                                111
 #define DLG_MISC                                112
 #define DLG_NANO                                113
+#define DLG_STOLENKEY                           114
 #define IDC_BTN_GENERATE                        1000
 #define IDC_CHK_BRUTESHUTDOWN                   1000
 #define IDC_BTN_BROWSE                          1001

@@ -61,6 +61,7 @@ SET(${this_target}_SOURCE_FILES
         functions/Misc_projectid.cpp
         functions/Misc_sectiondeleter.cpp
         functions/Misc_verifysym.cpp
+        functions/stolenkey.cpp
         functions/VersionFind_decode.cpp
         functions/VersionFind_dialog.cpp
         functions/VersionFind_extraoptions.cpp
@@ -116,6 +117,7 @@ SET(${this_target}_HEADER_FILES
         functions/Misc_projectid.h
         functions/Misc_sectiondeleter.h
         functions/Misc_verifysym.h
+        functions/stolenkey.h
         functions/VersionFind_decode.h
         functions/VersionFind_dialog.h
         functions/VersionFind_extraoptions.h
@@ -171,6 +173,7 @@ SOURCE_GROUP("Header Files//functions" FILES
         functions/Misc_projectid.h
         functions/Misc_sectiondeleter.h
         functions/Misc_verifysym.h
+        functions/stolenkey.h
         functions/VersionFind_decode.h
         functions/VersionFind_dialog.h
         functions/VersionFind_extraoptions.h
